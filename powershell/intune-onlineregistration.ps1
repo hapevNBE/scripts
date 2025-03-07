@@ -1,6 +1,6 @@
 # Intune Autopilot Online Registration Script
 
-# Use from OOBE: shift+f10 for cmd; powershell $(iwr -useb https://raw.githubusercontent.com/hapevNBE/scripts/refs/heads/main/powershell/intune-onlineregistration.ps1)
+# Use from OOBE: shift+f10 for cmd; powershell $(iwr -useb https://raw.githubusercontent.com/hapevNBE/scripts/refs/heads/main/powershell/intune-onlineregistration.ps1).Content
 
 # Enable NuGet Provider
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
